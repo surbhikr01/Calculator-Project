@@ -10,9 +10,9 @@ function backspace() {
     screen.value = screenval;
     return screen.value;
 }
-function result() { }
-let x = document.getElementById("screen").value;
-let y = eval(x);
-document.getElementById("screen").value = y;
+function result() {
+    let x = document.getElementById("screen").value;
+    let y = eval(x);
+    document.getElementById("screen").value = y;
 }
 
