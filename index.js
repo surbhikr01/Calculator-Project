@@ -13,6 +13,6 @@ function backspace() {
 function result() {
     let x = document.getElementById("screen").value;
     let y = eval(x);
-    document.getElementById("screen").value = y;
+    document.getElementById("screen").value = y:
 }
 
