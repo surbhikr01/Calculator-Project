@@ -2,4 +2,4 @@
   from = "/*"
   to = "/index2.html"
   to = "/index2.html"
-  status = 200
+    status = 200
